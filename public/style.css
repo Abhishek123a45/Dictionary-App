@@ -1,0 +1,79 @@
+
+.searchbox{
+   min-width: 100%;
+   text-align: center;
+   position: relative;
+}
+
+.inputWord{
+    width: 80%;
+    padding: 0.8rem;
+}
+
+.output-container{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.output{
+    width: 80%;
+    min-height: 300px;
+    border: 1px solid rgb(39, 39, 39);
+}
+
+.output div{
+    padding-top: 20px;
+    padding-inline: 20px;
+}
+
+#searchButton{
+    border: none;
+    background: none;
+    position: absolute;
+    top: 10px;
+    right: 11%;
+}
+
+#hamButton{
+    border: none;
+    background: none;
+}
+
+
+.hamburger-menu{
+    display: none;
+}
+
+.contact-mobile {
+    height: 200px;
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .contact-container {
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+        position: relative;
+    }
+
+    .contact-mobile {
+        height: 200px;
+        width: 120px;
+        position: absolute;
+        top: 40px;
+    }
+
+    .main-container{
+        margin-top: 150px;
+    }
+
+
+    #hamburger.open {
+        transform: translateX(-80px);
+    }
+}

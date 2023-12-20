@@ -1,0 +1,8 @@
+
+Colors
+    searchButton - rgb(86, 231, 86);
+    
+
+dictionary api
+
+    https://api.dictionaryapi.dev/api/v2/entries/en/<word>
